@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CV Form</title>
+</head>
+<body>
+<h1>Online Form</h1>
+<fieldset>
+	<legend>CV Form</legend>
+	<fieldset>
+		<legend>Porsonal Information</legend>
+		<form>
+		First Name:
+		<input type="text" name="Firstname" placeholder="Firstname">
+		<br>
+		<br>
+		Last Name:
+		<input type="text" name="lastname" placeholder="Lastname">
+		<br>
+		<br>
+		Gender:
+		<input type="radio" name="gender" value="male" checked> Male
+        <input type="radio" name="gender" value="female"> Female
+        <br>
+        <br>
+       <form action="/action_page.php">
+        Birthday: <input type="date" name="bday">
+       </form>
+       <br>
+       Social State:
+		<input type="radio" name="Social State" value="Single" checked> Single
+        <input type="radio" name="Social State" value="Married"> Married
+        <br>
+        <br>
+        Country:
+		<select>
+			<option value="Palestina">Palestina</option>
+			<option value="Egypt">Egypt</option>
+			<option value="Europe">Europe</option>
+		</select>
+		<br>
+		<br>
+		<form action="/action_page.php">
+  E-mail: <input type="email" name="emailaddress" placeholder="youremail@example.com">
+</form>
+<br>
+<form action="/action_page.php">
+  Mobile Number:
+  <input type="tel" name="usrtel" placeholder="###-###-####">
+</form>
+<br>
+Personal Picture: <input type="file" value="choose file">
+	</fieldset>
+	<br>
+	<fieldset>
+
+		<legend>Educuational Information</legend>
+	<form>
+		University Name:
+		<input type="text" name="University Name">
+		<br>
+		<br>
+		Faculty:
+		<input type="text" name="Faculty" >
+		<br>
+		<br>
+		Degree:
+		<input type="radio" name="Degree" value="Diploma" checked> Diploma
+        <input type="radio" name="Degree" value="BA">BA
+        <input type="radio" name="Degree" value="M.A" checked> M.A
+        <input type="radio" name="Degree" value="Ph.D"> Ph.D
+        <br>
+        <br>
+        GPA:
+		<input type="text" name="University Name">
+
+	</fieldset>
+	<br>
+	<fieldset>
+		<legend>Food Favorite</legend>
+	What foods do you favorite:<br>
+        <textarea name="message" rows="10" cols="30" placeholder="like:pizza,shorma,..."></textarea>
+
+	</fieldset>
+	<br>
+	<fieldset>
+		<legend>Site Fovorite</legend>
+	What Site do you favorite:<br>
+        <textarea name="message" rows="10" cols="30" placeholder="like:FC Barcelona,Arsenal..."></textarea>
+	</fieldset>
+	<br>
+	<fieldset>
+		<legend>News list</legend>
+		What News list do you favorite:<br>
+        <textarea name="message" rows="10" cols="30" placeholder="like:skynewsarabia,sabayaonly..."></textarea>
+        <br>
+ <input type="submit">
+	</fieldset>
+</fieldset>
+</body>
+</html>
